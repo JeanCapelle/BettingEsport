@@ -1,0 +1,4 @@
+betting_esport_match:
+    resource: "@BettingEsportMatchBundle/Resources/config/routing.yml"
+    prefix:   /
+
