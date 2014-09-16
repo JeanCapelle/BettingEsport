@@ -1,0 +1,29 @@
+BettingEsport\MatchBundle\Entity\Matchs:
+    type: entity
+    table: null
+    repositoryClass: BettingEsport\MatchBundle\Entity\MatchsRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        idJ1:
+            type: integer
+        idJ2:
+            type: integer
+        dateHeureDebut:
+            type: datetime
+        dateHeureFinParis:
+            type: datetime
+        resultat:
+            type: integer
+        coteJ1:
+            type: integer
+        coteJ2:
+            type: integer
+        jeu:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

@@ -1,0 +1,24 @@
+BettingEsport\MatchBundle\Entity\Joueur:
+    type: entity
+    table: null
+    repositoryClass: BettingEsport\MatchBundle\Entity\JoueurRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        pseudo:
+            type: string
+            length: 255
+        logo:
+            type: string
+            length: 255
+        lien:
+            type: string
+            length: 255
+        infos:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

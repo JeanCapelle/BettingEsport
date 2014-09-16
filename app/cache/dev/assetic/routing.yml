@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: 'D:/wamp/www/BettingEsport/app/config/routing_dev.yml'
