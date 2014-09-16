@@ -1,7 +1,0 @@
-parameters:
-#    betting_esport_match.example.class: BettingEsport\MatchBundle\Example
-
-services:
-#    betting_esport_match.example:
-#        class: %betting_esport_match.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

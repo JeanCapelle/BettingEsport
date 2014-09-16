@@ -1,3 +1,0 @@
-betting_esport_match_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: BettingEsportMatchBundle:Default:index }
